@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django_browser_reload.middleware.BrowserReloadMiddleware',
 ]
 
-ROOT_URLCONF = '{{project_name}}.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = '{{project_name}}.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
